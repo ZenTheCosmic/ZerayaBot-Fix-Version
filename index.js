@@ -819,7 +819,7 @@ function sendDiscordWebhook(content, color = 0x0099ff) {
 
   const payload = JSON.stringify({
     username: config.name,
-    avatar_url: "https://cdn.discordapp.com/attachments/1276735824502718465/1488952740028612839/IMG_20260402_012613.png?ex=69dc7e8c&is=69db2d0c&hm=bcca7886da216425c83d99363d1bb947801f1c71d084c67aca30a286de11933c",
+    avatar_url: "https://cdn.discordapp.com/attachments/1489608220099215440/1496033764369760306/s-l1200.jpg?ex=69e86984&is=69e71804&hm=6303ce50a35755f0b19dcd44c56a43407f4226e44e477dd1336108459220580e&",
     embeds: [{
       description: content,
       color: color,
