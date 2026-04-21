@@ -1,7 +1,7 @@
 {
-  "name": "Zeraya Bot",
+  "name": "Swight Bot",
   "bot-account": {
-    "username": "Zeraya Bot",
+    "username": "SwigthBot",
     "password": "",
     "type": "offline"
   },
@@ -31,9 +31,9 @@
       "repeat": true,
       "repeat-delay": 1200,
       "messages": [
-        "I'm a regular player",
+        "Welcome to Zeraya Legacy",
         "Subscribe to ZenTheCosmic!",
-        "I like to play Minecraft!"
+        "Enjoy Playing Minecraft!"
       ]
     },
     "chat-log": true,
