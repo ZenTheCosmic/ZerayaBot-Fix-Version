@@ -819,11 +819,12 @@ function sendDiscordWebhook(content, color = 0x0099ff) {
 
   const payload = JSON.stringify({
     username: config.name,
+    avatar_url: "https://cdn.discordapp.com/attachments/1276735824502718465/1488952740028612839/IMG_20260402_012613.png?ex=69dc7e8c&is=69db2d0c&hm=bcca7886da216425c83d99363d1bb947801f1c71d084c67aca30a286de11933c",
     embeds: [{
       description: content,
       color: color,
       timestamp: new Date().toISOString(),
-      footer: { text: 'Slobos AFK Bot' }
+      footer: { text: 'ZenBot' }
     }]
   });
 
